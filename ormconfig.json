@@ -3,9 +3,9 @@
   "host": "localhost",
   "port": 3306,
   "username": "root",
-  "password": "root",
+  "password": "password",
   "database": "todolist",
-  "entities": ["dist/entities/**/*.entitiy.js"],
-  "migrations": ["dist/migrations/**/*.js"],
+  "entities": ["dist/entities/*.entity.js"],
+  "migrations": ["dist/migrations/*.js"],
   "logging": false
 }
