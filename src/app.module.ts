@@ -8,7 +8,7 @@ import { TaskModule } from './task/task.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot(), TaskModule],
-  controllers: [AppController, TaskController],
-  providers: [AppService, TaskService],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
